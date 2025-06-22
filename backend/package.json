@@ -1,0 +1,34 @@
+{
+  "name": "full-stack-app",
+  "version": "1.0.0",
+  "description": "This is a full stack mobile app that was done from a youtube video",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/First-division/Full-Stack-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+
+  "bugs": {
+    "url": "https://github.com/First-division/Full-Stack-App/issues"
+  },
+  "homepage": "https://github.com/First-division/Full-Stack-App#readme",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "cors": "^2.8.5",
+    "cron": "^4.3.0",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
