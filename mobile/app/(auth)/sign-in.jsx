@@ -118,16 +118,13 @@ const SignInScreen = () => {
               <Text style={authStyles.buttonText}>{loading ? "Signing In..." : "Sign In"}</Text>
             </TouchableOpacity>
 
-
             {/* Sign Up Link */}
-
-            <TouchableOpacity 
+            <TouchableOpacity
               style={authStyles.linkContainer}
               onPress={() => router.push("/(auth)/sign-up")}
             >
-              <Text style={authStyles.link}>
-                 Don&apos;t have an account <Text style={authStyles.link}>Sign Up</Text>
-                 
+              <Text style={authStyles.linkText}>
+                Don&apos;t have an account? <Text style={authStyles.link}>Sign up</Text>
               </Text>
             </TouchableOpacity>
           </View>
